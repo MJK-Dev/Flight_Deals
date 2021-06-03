@@ -1,0 +1,373 @@
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+h1 {
+font-size: 1rem;
+color: grey;
+line-height: 1.5;
+padding: 1% 15%;
+
+}
+
+h2 {
+
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3 {
+    font-weight: bold;
+
+}
+
+p{
+    color: #8f8f8f;
+}
+
+/* Headings */
+
+.big-heading {
+font-family: 'Montserrat';
+font-weight: bold;
+font-size: 3.5rem;
+line-height: 1.5;
+color: #fff;
+}
+
+
+#title {
+background-color: #b34180;
+color: #fff;
+text-align: center;
+padding: 0% 0% 10% 0%;
+
+}
+
+.container-fluid{
+    padding: 3% 15% 7%;
+
+}
+
+.navbar {
+    padding: 0 0 4.5em;
+
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+    color: #fff;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 100;
+}
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+    padding: 3%;
+    position: absolute;
+    right: 20%;
+
+
+}
+
+#features {
+    background-color: #fff;
+    padding: 1% 15% 1% 15%;
+    position: relative;
+    z-index: 1;
+
+}
+
+.feature{
+
+    margin: 4%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#testimonials {
+    background-color: #ef8172;
+    color: #fff;
+    position: relative;
+}
+
+
+#footer {
+background-color: #fff;
+position: relative;
+padding: 10% 15% 2%;
+}
+
+.text-footer {
+font-size: 1rem;
+font-weight: bold;
+}
+
+.icon-footer {
+margin: 10px;
+}
+
+@media (max-width: 1028px){
+    .title-image{
+    position: static;
+     transform: rotate(0deg);
+    }
+    #title {
+        text-align: center;
+    }
+}
+
+
+.new-task{
+padding: 5% 4% 5% 4%;
+}
+
+.your-tasks {
+font-family: 'Montserrat';
+font-size: 3rem;
+padding: 5% 4% 1% 4%;
+}
+
+.subs {
+font-family: 'Montserrat';
+padding: 5% 4% 5% 4%;
+}
+
+.log-in{
+padding: 3% 4% 1% 4%;
+font-size: 2rem;
+
+}
+
+.task-input {
+font-size:2rem;
+width: 40rem;
+box-shadow: 1px 1px 1px 1px rgba(227,107,174, 0.8);
+border-width: 1px;
+border-style: solid;
+border-color: #e36bae;
+border-radius:8px;
+}
+
+.task-input-days {
+font-size:2rem;
+width: 9rem;
+box-shadow: 1px 1px 1px 1px rgba(227,107,174, 0.8);
+border-width: 1px;
+border-style: solid;
+border-color: #e36bae;
+text-align: center;
+border-radius:10px;
+}
+
+.row-style {
+padding: 4% 1% 1% 1%;
+text-align: center;
+position: relative;
+}
+
+
+
+.myButton {
+	box-shadow: 0px 10px 14px -7px #61b5c2;
+	background:linear-gradient(to bottom, #f274dd 5%, #4f848c 100%);
+	background-color:#f274dd;
+	border-radius:8px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:1.2rem;
+	font-weight:bold;
+	padding: 2% 2%;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+	width: 12rem;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #4f848c 5%, #f274dd 100%);
+	background-color:#4f848c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.image-div{
+border-width: 2px;
+border-style: solid;
+padding: 2%;
+}
+
+.image-specs{
+max-width: 85%;
+max-height: 85%;
+
+}
+
+
+
+.task-card{
+  box-shadow: 1px 6px 8px 5px rgba(0, 0, 0, 0.2);
+  width: 900px;
+  height:330px;
+  text-align: center;
+  font-family: arial;
+  padding: 2% 1% 1% 1%;
+  margin: 4%;
+  opacity: 0.8;
+  position: relative;
+  word-spacing:0.1rem;
+
+}
+
+.no-bargain-card{
+  box-shadow: 1px 6px 8px 5px rgba(0, 0, 0, 0.2);
+  width: 900px;
+  height:165px;
+  text-align: center;
+  font-family: arial;
+  padding: 3% 1% 1% 1%;
+  margin: 4%;
+  opacity: 0.8;
+}
+
+.card-task {
+height:50px;
+position: relative;
+
+}
+.card-task h3 {
+font-size: 3rem;
+
+}
+
+.card-description{
+max-height:200px;
+overflow:hidden;
+
+}
+
+.card-description h3 {
+font-size: 1.2rem;
+padding: 4% 10% 0% 10%;
+}
+
+.card-deadline {
+  color: grey;
+  font-size: 1rem;
+  height:20px;
+}
+.card-icons{
+height:25px;
+padding: 1% 4% 1% 4%;
+}
+
+.task-card:hover, .no-bargain-card:hover {
+  opacity: 1.0;
+
+}
+
+.card-todo {
+border-width: 4px;
+border-style: solid;
+border-color: #f39233;
+background-color: #fafcc2;
+border-radius: 10%;
+background-image: url("../../static/images/card_background.jpg");
+background-attachment: local;
+}
+.card-todo:hover {
+background-image: url("../../static/images/card_background_2.jpg");
+background-attachment: local;
+}
+.card-doing {
+border-width: 4px;
+border-style: solid;
+border-color: #f1e189;
+background-color: #d2f5e3;
+border-radius: 5%;
+}
+
+.button-column {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.index-container{
+text-align: center;
+}
+
+.col-style{
+text-align: center;
+justify-content: center;
+}
+
+/* Price Tag */
+
+.price-tag {
+
+  background: #29bb89;
+  border-radius: 5px 0 0 5px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 2rem;
+  height: 60px;
+  line-height: 60px;
+  margin-right: 1rem;
+  padding: 0 0.666rem;
+  position: relative;
+  text-align: center;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  z-index:2;
+
+}
+
+.price-tag:after {
+  background: inherit;
+  border-radius: 5px;
+  display: block;
+  content: "";
+  height: 48px;
+  position: absolute;
+  right: -43px;
+  top: -2px;
+  transform-origin: top left;
+  transform: rotate(45deg);
+  width: 42px;
+  z-index: -1;
+}
+.price-tag:hover {
+  background: #07b;
+}
